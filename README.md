@@ -36,6 +36,9 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 ## Initialization NOTE
 
 ```sh
+asdf plugin add nodejs https://github.com/asdf-vm/asdf-nodejs.git
+asdf install
+
 node -v #=> v18.16.0
 
 npm i -g create-next-app
